@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="ExtensionTest" time="2.793" errors="1" skipped="0">
+  <properties>
+    <property name="idea.version" value="15.0.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="user.country.format" value="GB"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7535"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/laeg/Projects/Java/testing_ground/extensionTest"/>
+    <property name="java.runtime.version" value="1.8.0_45-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/69/w3gpfmgj1596jnwtzglm4r540000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA 15.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/laeg/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/laeg"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="/Applications/IntelliJ IDEA 15.app/Contents/bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="laeg"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA 15.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.4.jar:/Applications/IntelliJ IDEA 15.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=15.0.2 install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="/Users/laeg/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA 15.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="ExtensionTest" name="shouldReturnOnline" time="2.644">
+    <error message="Starting Neo4j failed: org.neo4j.server.web.NeoServletContainer-39c1fe0b@73fdab19==org.neo4j.server.web.NeoServletContainer,-1,false" type="org.neo4j.server.ServerStartupException">org.neo4j.server.ServerStartupException: Starting Neo4j failed: org.neo4j.server.web.NeoServletContainer-39c1fe0b@73fdab19==org.neo4j.server.web.NeoServletContainer,-1,false
+	at org.neo4j.server.exception.ServerStartupErrors.translateToServerStartupError(ServerStartupErrors.java:67)
+	at org.neo4j.server.AbstractNeoServer.start(AbstractNeoServer.java:234)
+	at org.neo4j.harness.internal.InProcessServerControls.start(InProcessServerControls.java:60)
+	at org.neo4j.harness.internal.AbstractInProcessServerBuilder.newServer(AbstractInProcessServerBuilder.java:114)
+	at org.neo4j.harness.junit.Neo4jRule$1.evaluate(Neo4jRule.java:67)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: javax.servlet.ServletException: org.neo4j.server.web.NeoServletContainer-39c1fe0b@73fdab19==org.neo4j.server.web.NeoServletContainer,-1,false
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:633)
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:395)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:871)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:298)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.neo4j.server.web.Jetty9WebServer.startJetty(Jetty9WebServer.java:379)
+	at org.neo4j.server.web.Jetty9WebServer.start(Jetty9WebServer.java:182)
+	at org.neo4j.server.AbstractNeoServer.startWebServer(AbstractNeoServer.java:377)
+	at org.neo4j.server.AbstractNeoServer.start(AbstractNeoServer.java:222)
+	... 25 more
+Caused by: com.sun.jersey.api.container.ContainerException: The ResourceConfig instance does not contain any root resource classes.
+	at com.sun.jersey.server.impl.application.RootResourceUriRules.&lt;init&gt;(RootResourceUriRules.java:99)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._initiate(WebApplicationImpl.java:1359)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.access$700(WebApplicationImpl.java:180)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl$13.f(WebApplicationImpl.java:799)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl$13.f(WebApplicationImpl.java:795)
+	at com.sun.jersey.spi.inject.Errors.processWithErrors(Errors.java:193)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.initiate(WebApplicationImpl.java:795)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.initiate(WebApplicationImpl.java:790)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.initiate(ServletContainer.java:509)
+	at com.sun.jersey.spi.container.servlet.ServletContainer$InternalWebComponent.initiate(ServletContainer.java:339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.load(WebComponent.java:605)
+	at com.sun.jersey.spi.container.servlet.WebComponent.init(WebComponent.java:207)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:394)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:577)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244)
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:612)
+	... 44 more
+</error>
+    <system-out>11:08:56.237 [main] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+11:08:56.430 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+11:08:56.432 [main] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+11:08:56.432 [main] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+11:08:56.432 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+11:08:56.434 [main] DEBUG i.n.util.internal.PlatformDependent - Java version: 8
+11:08:56.434 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+11:08:56.434 [main] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+11:08:56.434 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+11:08:56.435 [main] DEBUG i.n.util.internal.PlatformDependent - Javassist: unavailable
+11:08:56.435 [main] DEBUG i.n.util.internal.PlatformDependent - You don&apos;t have Javassist in your class path or you don&apos;t have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+11:08:56.435 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/69/w3gpfmgj1596jnwtzglm4r540000gn/T (java.io.tmpdir)
+11:08:56.435 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+11:08:56.435 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+11:08:56.444 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+11:08:56.451 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+11:08:56.451 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+</system-out>
+    <system-err>Mar 03, 2016 11:08:58 AM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.gbg
+Mar 03, 2016 11:08:58 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version &apos;Jersey: 1.19 02/11/2015 03:25 AM&apos;
+Mar 03, 2016 11:08:58 AM com.sun.jersey.server.impl.application.RootResourceUriRules &lt;init&gt;
+SEVERE: The ResourceConfig instance does not contain any root resource classes.
+</system-err>
+  </testcase>
+</testsuite>
